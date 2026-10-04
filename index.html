@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>איזה קורס אופק הוא שלך</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -210,6 +212,48 @@ button,.opt{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
   .course .cover{aspect-ratio:16/9}
   .course .in{padding:.9rem 1rem 1rem}
   .foot{font-size:.85rem;flex-direction:column}
+}
+
+/* ===== mobile: larger, thumb-friendly ===== */
+@media(max-width:600px){
+  html{-webkit-text-size-adjust:100%}
+  body{font-size:1.14rem;line-height:1.6}
+  .logo img{height:44px}
+  .year{font-size:.9rem}
+  .horizon .orb{width:38px;height:38px}
+  .hero .big-orb{width:104px}
+  .hero h1{font-size:clamp(2.4rem,11.5vw,3.1rem);max-width:calc(100% - 96px)}
+  .hero .lead{font-size:1.2rem}
+  .chip{font-size:1rem;padding:.4rem 1rem}
+  .whyhead{font-size:1.5rem}
+  .tile h3{font-size:1.22rem}
+  .tile p{font-size:1.08rem}
+  .tile .n{width:2.2rem;height:2.2rem;font-size:1.05rem}
+  .acts .btn{font-size:1.25rem;padding:1.2rem 1rem}
+  .link{font-size:1.1rem}
+  .qcount{font-size:1.05rem}
+  .q h2{font-size:clamp(1.9rem,8.6vw,2.3rem)}
+  .opt{font-size:1.18rem;padding:1.05rem 1rem;min-height:4.4rem}
+  .opt .k{width:2.4rem;height:2.4rem;font-size:1.1rem}
+  .eyebrow{font-size:1.2rem}
+  .match .code{font-size:1rem}
+  .match h2{font-size:clamp(1.55rem,7.2vw,1.95rem)}
+  .match .pitch{font-size:1.18rem}
+  .because{font-size:1.08rem}
+  .match summary,.course summary{font-size:1.08rem;padding-block:.3rem}
+  .match details p,.course details p{font-size:1.06rem}
+  .reg h3,.share h3,.alts h3{font-size:1.35rem}
+  .reg p,.share p{font-size:1.08rem}
+  .codebox{font-size:1.8rem}
+  .mini{font-size:1.08rem;padding:.9rem 1rem}
+  .alt{grid-template-columns:104px 1fr}
+  .alt b{font-size:1.08rem}
+  .alt span{font-size:1rem}
+  .share textarea{font-size:1.05rem;min-height:8.4rem}
+  .course h3{font-size:1.22rem}
+  .course .pitch{font-size:1.06rem}
+  .list h2{font-size:clamp(1.9rem,9vw,2.3rem)}
+  .foot{font-size:.95rem}
 }
 </style>
 
